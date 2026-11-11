@@ -1,0 +1,6 @@
+{
+  "name": "Bloomy — Fresh Greenery, Zero Maintenance",
+  "description": "Sri Lanka's premium artificial plant storefront. Lifelike indoor plants, trees, flowers, and architectural pots with island-wide delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

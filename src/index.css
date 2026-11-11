@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Barbra SauiCondensed';
+  src: local('Barbra SauiCondensed'), local('Barbra SemiCondensed'), local('Barbra'),
+    local('Oswald Bold'), local('Oswald');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --u: calc(100vw / 1440);
+  --bg-mint-studio: #F5F8EF;
+  --surface-sage: #EDF3E4;
+  --badge-mint: #DAE7C7;
+  --accent-forest: #08482D;
+  --ink-primary: #101410;
+  --ink-muted: #5E5E61;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #F5F8EF;
+  color: #101410;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #F5F8EF;
+  color: #101410;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-brand {
+  font-family: 'Barbra SauiCondensed', 'Barbra SemiCondensed', 'Barbra', 'Oswald', sans-serif;
+}
+
+.font-display {
+  font-family: 'Inter Tight', 'Inter', sans-serif;
+}
+
+.font-hand {
+  font-family: 'Caveat', cursive;
+}
+
+/* Hide scrollbars on horizontal filter strip while keeping touch scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
